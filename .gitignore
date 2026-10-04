@@ -1,0 +1,46 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+ENV/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Local build and notebook noise
+.ipynb_checkpoints/
+dist/
+build/
+*.egg-info/
+
+# Third-party benchmark data are downloaded from the official source.
+# Keep the download instructions in data/README.md, but do not redistribute
+# the original BSDS500 images and human annotations in this repository.
+/data/BSR/BSDS500/data/
+/data/BSR/bench/data/
+/data/BSR/documentation/
+
+# Regenerable experiment and presentation artifacts; keep summary tables and
+# source scripts, while publishing the reproducibility instructions instead
+# of thousands of per-image intermediates.
+/results/fscod_artifacts/
+/results/*_per_image.csv
+/figures/*.tiff
+/logs/

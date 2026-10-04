@@ -1,0 +1,6 @@
+split,baseline,win_rate,lose_rate,tie_rate,mean_win,n
+test,SLIC,0.98,0.005,0.015,5.045,200
+test,Felzenszwalb,0.9,0.055,0.045,3.905,200
+test,Watershed,0.835,0.125,0.04,3.74,200
+test,MeanShift,0.945,0.02,0.035,4.395,200
+test,Quickshift,0.98,0.005,0.015,5.0,200
